@@ -1,0 +1,13 @@
+package proxy;
+
+/**
+ * Created by Administrator on 2016/12/29 0029.
+ */
+public class ProxyPatternDemo {
+    public static void main(String[] args) {
+        Image image = new ProxyImage("test_10mb.jpg");
+        image.display();
+        System.out.println(" ");
+        image.display();
+    }
+}
